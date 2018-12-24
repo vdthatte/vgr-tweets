@@ -15,7 +15,19 @@ body{
     border-radius: 8px;
 }
 
- @media (max-width: 900px) { 
+ @media (max-width: 900px) {
+
+    header{
+        background-color: #fff;
+        width: 100%;
+        padding-bottom: 5%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        z-index: 999;
+        top: 0;
+    }
+
+
     ul {
         list-style-type: none;
         margin: 0;
@@ -48,6 +60,22 @@ body{
 
 
  @media (min-width: 900px) { 
+
+    header{
+        margin-left: 25%;
+        margin-right: 25%;
+        position: fixed;
+        background-color: #fff;
+        width: 50%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        z-index: 999;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+        -moz-box-shadow: rgba(0,0,0,0.3) 0.5vw 1vw 3vw;
+        box-shadow: rgba(0, 0, 0, 0.3) 0.5vw 1vw 3vw;
+        bottom: 0;
+    }
+
     ul {
         list-style-type: none;
         margin: 0;
