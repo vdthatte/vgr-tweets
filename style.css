@@ -62,7 +62,9 @@ body{
         margin-right: 2%;
         line-height: 1em;
         word-wrap: break-word;
-        margin-bottom: 10%;
+        padding-top: 30%;
+        padding-bottom: 10%;
+        opacity: 0.8;
     }
  }
 
